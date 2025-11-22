@@ -4,6 +4,7 @@
   "license": "MIT",
   "author": "Adam Kiss",
   "type": "module",
+  "packageManager": "pnpm@10.12.0",
   "scripts": {
     "dev": "kirbyup serve src/index.js",
     "build": "kirbyup src/index.js"
