@@ -1,0 +1,45 @@
+{
+  "name": "adamkiss/kirby-seo-lite",
+  "description": "The easy Kirby SEO toolkit",
+  "type": "kirby-plugin",
+  "version": "1.2.0",
+  "license": "MIT",
+  "homepage": "https://github.com/adamkiss/kirby-seo-lite#readme",
+  "authors": [
+    {
+      "name": "Adam Kiss",
+      "email": "iam@adamkiss.com"
+    },
+    {
+      "name": "Tobias Möritz",
+      "email": "tobias@moeritz.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Adamkiss\\Seo\\": "classes"
+    }
+  },
+  "require": {
+    "php": ">=8.3.0",
+    "getkirby/composer-installer": "^1.2.1"
+  },
+  "require-dev": {
+    "getkirby/cms": "^5.0",
+    "getkirby/cli": "^1.2",
+    "friendsofphp/php-cs-fixer": "^3.48"
+  },
+  "scripts": {
+    "dev": "composer install",
+    "dist": "composer install --no-dev --optimize-autoloader"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "extra": {
+    "kirby-cms-path": false
+  }
+}
