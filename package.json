@@ -1,7 +1,8 @@
 {
+  "name": "adamkiss-seo-lite",
   "private": true,
   "license": "MIT",
-  "author": "Tobias Möritz",
+  "author": "Adam Kiss",
   "type": "module",
   "scripts": {
     "dev": "kirbyup serve src/index.js",
@@ -11,5 +12,9 @@
     "kirbyup": "^3.1.4",
     "postcss": "^8.4.35",
     "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss-logical": "^8.1.0"
   }
 }
