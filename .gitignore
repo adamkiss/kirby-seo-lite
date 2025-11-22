@@ -6,6 +6,12 @@
 node_modules
 index.dev.mjs
 
+# Composer dependencies that shouldn't be ignored
+/vendor
+!/vendor/composer
+!/vendor/autoload.php
+!/vendor/spatie
+
 # files of Composer dependencies that are not needed for the plugin
 /vendor/**/.*
 /vendor/**/*.json
@@ -25,4 +31,3 @@ index.dev.mjs
 /vendor/**/test/*
 /vendor/**/tests/*
 /vendor/**/php4/*
-/vendor/getkirby/composer-installer
